@@ -1,11 +1,6 @@
-import java.util.HashMap;
-import java.util.Map;
+package history_code;
 
-public class Main {
-    public static void main(String[] args) {
-        int[] a = {0,3,7,2,5,8,4,6,0,1};
-//       int as = longestConsecutive(a);
-    }
+public class le_53_maxarrayadd {
 
     public int maxSubArray(int[] nums) {
         int len = nums.length;
